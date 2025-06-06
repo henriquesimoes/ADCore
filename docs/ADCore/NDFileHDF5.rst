@@ -757,6 +757,12 @@ Parameters and Records
     - stringin
   * - asynInt32
     - r/w
+    - Chunk of extra dimension X
+    - HDF5_extraDimChunkX
+    - $(P)$(R)ExtraDimChunkX, $(P)$(R)ExtraDimChunkX_RBV
+    - longout, longin
+  * - asynInt32
+    - r/w
     - Size of extra dimension Y
     - HDF5_extraDimSizeY
     - $(P)$(R)ExtraDimSizeY, $(P)$(R)ExtraDimSizeY_RBV
@@ -769,6 +775,12 @@ Parameters and Records
     - stringin
   * - asynInt32
     - r/w
+    - Chunk of extra dimension Y
+    - HDF5_extraDimChunkY
+    - $(P)$(R)ExtraDimChunkY, $(P)$(R)ExtraDimChunkY_RBV
+    - longout, longin
+  * - asynInt32
+    - r/w
     - Size of the N'th extra dimension, for N in [3..9]
     - HDF5_extraDimSize[N]
     - $(P)$(R)ExtraDimSize[N], $(P)$(R)ExtraDimSize[N]_RBV
@@ -779,6 +791,12 @@ Parameters and Records
     - HDF5_extraDimName[N]
     - $(P)$(R)ExtraDimName[N]_RBV
     - stringin
+  * - asynInt32
+    - r/w
+    - Chunk of the N'th extra dimension, for N in [3..9]
+    - HDF5_extraDimChunkY
+    - $(P)$(R)ExtraDimChunk[N], $(P)$(R)ExtraDimChunk[N]_RBV
+    - longout, longin
   * -
     -
     - **Positional Placement**
